@@ -1,0 +1,9 @@
+{
+	"name": "ETL-Learn-ADF",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0908c4f8-07b5-4ee7-bccd-04e961554845",
+		"tenantId": "12c85784-2d25-4a13-acfe-890657910224"
+	}
+}
