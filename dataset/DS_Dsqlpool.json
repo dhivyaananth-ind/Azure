@@ -1,0 +1,16 @@
+{
+	"name": "DS_Dsqlpool",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sales"
+		},
+		"sqlPool": {
+			"referenceName": "etllearndsqlpool",
+			"type": "SqlPoolReference"
+		}
+	}
+}
