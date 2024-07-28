@@ -1,0 +1,10 @@
+{
+	"name": "LS_ETL_KV_2024",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://ETL-KV-2024.vault.azure.net/"
+		}
+	}
+}
