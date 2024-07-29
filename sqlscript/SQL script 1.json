@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "SELECT *\nFROM OPENROWSET(BULK 'https://etllearnadls.dfs.core.windows.net/etl/raw/*',\n                FIRSTROW = 2,\n                FORMAT = 'CSV') \n    WITH (\n    OrderID\t\t\tvarchar(1000),\t\nProduct\t        varchar(1000),\nQuantity\t    varchar(1000),\nPrice           varchar(1000)\n)AS [file]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
