@@ -1,6 +1,9 @@
 {
-	"name": "PL_CP_incremental",
+	"name": "WaterMark",
 	"properties": {
+		"folder": {
+			"name": "IncrementalDataLoad"
+		},
 		"annotations": []
 	}
 }
