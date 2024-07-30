@@ -1,0 +1,16 @@
+{
+	"name": "DS_SqlServer_Local",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SqlServer_local",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sales"
+		}
+	}
+}
